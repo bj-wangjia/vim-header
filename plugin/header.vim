@@ -1,16 +1,16 @@
-" **************************************************************************** "
-"                                                                              "
-"                                                         :::      ::::::::    "
-"    File: header.vim                                   :+:      :+:    :+:    "
-"                                                     +:+ +:+         +:+      "
-"    Byabc: wangjia <wangjia@mitegral.com>          +#+  +:+       +#+         "
-"                                                 +#+#+#+#+#+   +#+            "
-"    Created: 2019/04/11 15:19:29 by wangjia           #+#    #+#              "
-"    Updated: 2019/04/11 15:19:29 by wangjia          ###   ########.fr        "
-"                                                                              "
-" **************************************************************************** "
+" ********************************************************************************* "
+"                                                                                   "
+"                                                     :::::   :::#:::       :       "
+"  File: header.vim                                     #        #          #       "
+"                                                       #        #         : :      "
+"  By: wangjia <jia.wang@mitegral.com>                  #        #        :   :     "
+"                                                       #        #       :=====:    "
+"  Created: 2019/04/11 18:04:37 by wangjia           .  #        #      :       :   "
+"  Updated: 2019/04/11 18:04:45 by wangjia            ++:     :::#:::  :         :  "
+"                                                                                   "
+" ********************************************************************************* "
 
 command! AddHeader call header#addheader()
 
 autocmd BufNewFile * call header#addheader()
-autocmd BufWritePre * silent! :AddHeader 
+"autocmd BufWritePre * silent! :AddHeader 
